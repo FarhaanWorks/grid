@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 110px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.box1{
+    background-color:darkred;
+    border: 2px solid black;
+    /* order: 1; */
+}
+
+.box2{
+    background-color: black;
+    border: 2px solid darkred;
+}
+
+.box3{
+    background-color: goldenrod;
+    border: 2px solid blue;
+    /* order: 3; */
+}
